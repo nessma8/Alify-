@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alify</title>
+    <link rel="stylesheet" href="styles.css"> <!-- ربط ملف CSS -->
+    <script src="script.js" defer></script> <!-- ربط ملف JS -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Alify</a> 
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a href="Offer.html">Offers</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="DOC2.html">Consultations</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="search-bar">
+                <input type="text" placeholder="Search..." />
+                <button type="button">🔍</button> 
+            </div>
+            <a href="#" class="cart-icon">🛒</a> 
+            <a href="#" class="user-icon">
+                <img src="image2\profile.gif" alt="User" />
+            </a>  
+        </div>
+    </nav>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Find your perfect companion today!</h1>
+            <p>Browse our wonderful collection of pets and choose the friend that will make your life full of happiness.</p>
+            <a href="pets.html" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="image/istockphoto-1355274470-612x612.jpg" alt="Pets">
+        </div>
+    </header>
+      
+    <section class="cards-container">
+        <div class="card" onmouseover="cardHover(this)" onmouseout="cardLeave(this)">
+            <img src="image/istockphoto-1087238520-612x612.jpg" alt="Special Offers" class="card-img">
+            <h3>Special Offers</h3>
+            <p>Find the best deals on our pets and pet accessories.</p>
+            <a href="Offer.html" class="btn">Shop Now</a>
+        </div>
+        <div class="card" onmouseover="cardHover(this)" onmouseout="cardLeave(this)">
+            <img src="image/free-photo-of-collies-on-grass.jpeg" alt="New Arrivals" class="card-img">
+            <h3>New Arrivals</h3>
+            <p>Check out the latest additions to our pet collection.</p>
+            <a href="pets.html" class="btn">Shop Now</a>
+        </div>
+        <div class="card" onmouseover="cardHover(this)" onmouseout="cardLeave(this)">
+            <img src="image/istockphoto-1418715689-612x612.jpg" alt="Pet Info" class="card-img">
+            <h3>Pet Info</h3>
+            <p>Learn about how to care for your beloved pets.</p>
+            <a href="Blog.html" class="btn">Shop Now</a>
+        </div>
+    </section>
+    
+    <section id="animal-categories">
+        <h2>Pets Categories</h2>
+        <div class="category-cards">
+            <div class="category-card">
+                <img src="image2\كلب 1.webp" alt="Dogs">
+                <div class="category-info">
+                    <h3>Dogs</h3>
+                    <p>Explore various breeds of dogs that make great pets.</p>
+                    <a href="pets.html#dogs" class="btn">Discover More</a>
+
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="image2\قطط1.jpg" alt="Cats">
+                <div class="category-info">
+                    <h3>Cats</h3>
+                    <p>Learn about different cat breeds and their care needs.</p>
+                    <a href="pets.html#cats" class="btn">Discover More</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="image2\طيور1.jpg" alt="Birds">
+                <div class="category-info">
+                    <h3>Birds</h3>
+                    <p>Find out about the best birds for companionship.</p>
+                    <a href="pets.html#birds" class="btn">Discover More</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="image2\زواحف1.jpeg" alt="Reptiles">
+                <div class="category-info">
+                    <h3>Reptiles</h3>
+                    <p>Information on reptiles that are suitable as pets.</p>
+                    <a href="pets.html#reptiles" class="btn">Discover More</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="image2\معلومات 2.webp" alt="General Information">
+                <div class="category-info">
+                    <h3>General Information</h3>
+                    <p>Get more details on animal care and adoption tips.</p>
+                    <a href="Blog.html" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="best-sellers">
+        <h2>Best Sellers</h2>
+    <div class="card-container">
+        <div class="card-slider">
+            <!-- 1st card -->
+            <div class="product-card">
+                <img src="image2\البادجى.webp" alt="bird">
+                <div class="product-info">
+                    <h3>The Badger</h3>
+                    <p>Category: Bird</p>
+                    <p>Age: 1 Years</p>
+                    <p>Gender: Male and Female</p>
+                    <p>Price: 250EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 2nd card -->
+            <div class="product-card">
+                <img src="image2\ROSE latino.webp" alt="bird">
+                <div class="product-card">
+                    <h3>Rose Latino</h3>
+                    <p>Category: Bird</p>
+                    <p>Age: 1 Year</p>
+                    <p>Gender: Male and Female</p>
+                    <p>Price: 800EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 3rd card -->
+            <div class="product-card">
+                <img src="image2\سلحفه.webp" alt="Tortoise">
+                <div class="product-info">
+                    <h3>Tortoise</h3>
+                    <p>Category: Reptiles</p>
+                    <p>Age: 6 Months</p>
+                    <p>Gender:Female</p>
+                    <p>Price: 150EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 4th card -->
+            <div class="product-card">
+                <img src="image2\قطه بيع.webp" alt="cat">
+                <div class="product-info">
+                    <h3>Scottish Fold</h3>
+                    <p>Category: cat</p>
+                    <p>Age: 3 month/p>
+                    <p>Gender: Male</p>
+                    <p>Price:500EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 5th card -->
+            <div class="product-card">
+                <img src="image2\فار.webp" alt="Reptiles">
+                <div class="product-info">
+                    <h3>golden hamster</h3>
+                    <p>Category: Reptiles</p>
+                    <p>Age: 2 month</p>
+                    <p>Gender: Female</p>
+                    <p>Price: 200EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 6th card -->
+            <div class="product-card">
+                <img src="image2\ارنب ابيض.webp" alt="Reptiles">
+                <div class="product-info">
+                    <h3>Little White Rabbit</h3>
+                    <p>Category: Reptiles</p>
+                    <p>Age:  2 month</p>
+                    <p>Gender: Female</p>
+                    <p>Price:100EL </p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 7th card -->
+            <div class="product-card">
+                <img src="image2\فار بيطير.webp" alt="Reptile">
+                <div class="product-info">
+                    <h3>Flying Squirrel</h3>
+                    <p>Category: Reptile</p>
+                    <p>Age: 1 Year</p>
+                    <p>Gender: Male</p>
+                    <p>Price: 400EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 8th card -->
+            <div class="product-card">
+                <img src="image2\كلبابيض.jpg" alt="Dog">
+                <div class="product-info">
+                    <h3>German Shepherd </h3>
+                    <p>Category:Dog</p>
+                    <p>Age: 4 Years</p>
+                    <p>Gender: Male</p>
+                    <p>Price: 1.500EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 9th card -->
+            <div class="product-card">
+                <img src="image2\كلاب كيوت.jpg" alt="Dog">
+                <div class="product-info">
+                    <h3>Schitzu</h3>
+                    <p>Category: Dog</p>
+                    <p>Age: 45 Day</p>
+                    <p>Gender: Male and Female</p>
+                    <p>Price: 300 EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+    
+            <!-- 10th card -->
+            <div class="product-card">
+                <img src="image2\كلب 3.webp" alt="Dog">
+                <div class="product-info">
+                    <h3>Polly Tricolor</h3>
+                    <p>Category:Dog</p>
+                    <p>Age: 57 Day</p>
+                    <p>Gender: Male</p>
+                    <p>Price: 6.500EL</p>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <section class="customer-reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-container">
+            <div class="review-card">
+                
+                <h3>Nessma mostafa</h3>
+                <p>"Great experience! The pets are adorable and well cared for."</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="review-card">
+                <h3>Norhan tarek</h3>
+                <p>"Amazing service and high-quality pets! Highly recommend."</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="review-card">
+                
+                <h3>Yasmen ail</h3>
+                <p>"I found my perfect pet here. The team was very helpful."</p>
+                <div class="stars">★★★★☆</div>
+            </div>
+            <div class="review-card">
+               
+                <h3>Nada mostafa</h3>
+                <p>"Loved the experience! Great variety of pets."</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="review-card">
+                
+                <h3>Ali tarek</h3>
+                <p>"Professional service and healthy pets. Will visit again!"</p>
+                <div class="stars">★★★★★</div>
+            </div>
+        </div>
+    </section>
+    <section class="services-section">
+        <h2>Why Choose Us?</h2>
+        <div class="services-container">
+          <div class="service-card">
+            <img src="image2\price-tag.png" alt="Prices">
+            <h3>Our Prices</h3>
+            <p>We offer competitive and amazing prices just for you.</p>
+          </div>
+          <div class="service-card">
+            <img src="image\delivery-truck.gif" alt="Delivery">
+            <h3>Fast Delivery</h3>
+            <p>We deliver your needs quickly and with care.</p>
+          </div>
+          <div class="service-card">
+            <img src="image2\recommendation.gif" alt="Products">
+            <h3>Our Products</h3>
+            <p>Top-quality products just for you and your pets.</p>
+          </div>
+        </div>
+      </section>
+      
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Alify</h2>
+                <p>Your trusted source for pets</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pets.html">Pets</a></li>
+                    <li><a href="Offer.html">Offers</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="DOC2.html">Consultations</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact2.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p>Contact us:</p>
+                <p>Email:  info@Alify.com</p>
+                <p>Phone: +20 1279229421</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                  <img src="image/3665167.png" />
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                  <img src="image\instagram-logo.png"  />
+                </a>
+                <a href="https://wa.me/yourphonenumber" target="_blank" class="social-icon">
+                  <img src="image2/whatsapp-logo.png"  />
+                </a>
+                <!-- إضافة المزيد من الأيقونات إذا لزم الأمر -->
+              </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 spark of creativity . All rights reserved.</p>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn">
+        <span class="arrow"></span>
+      </button>
+    
+      
+
+
+    
+
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+    

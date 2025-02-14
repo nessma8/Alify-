@@ -1,0 +1,412 @@
+
+/* Navbar Styling */
+.navbar {
+    background: #f5b041; /* تدرج لوني أفقي */
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline-block;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #000000;
+}
+.navbar .nav-links li a.active,
+.navbar .nav-links li a:hover {
+    background-color: #f5b041;
+}
+
+/* Mobile Menu Styling
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+}
+
+/* Responsive Navbar 
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #34495e;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    } */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #f5b041;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5b041;
+    color: white;
+}
+
+header h1 {
+    
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+
+}
+
+header p {
+    font-size: 1.2rem;
+    
+    margin-top: 0;
+}
+
+/* Section Styling */
+.section {
+    padding: 50px 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #f5b041;
+    text-align: center;
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f5b041;
+}
+
+/* Card Styling */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 300px;
+    margin-top: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-info h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #f5b041;
+}
+
+.product-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.buy-btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f5b041;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer .footer-links {
+    margin-top: 10px;
+}
+
+footer .footer-links a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+.bounce:hover {
+    animation: bounce 0.5s ease-in-out;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+/* Scroll to Top Button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(145deg, #444, #f39c12); /* تدرج لون أنيق */
+    border: none;
+    border-radius: 50%; /* زر دائري */
+    display: none; /* إخفاء الزر بشكل افتراضي */
+    justify-content: center; /* وضع المحتوى في المنتصف أفقيًا */
+    align-items: center; /* وضع المحتوى في المنتصف عموديًا */
+    cursor: pointer; /* تغيير شكل المؤشر */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4), -4px -4px 8px rgba(255, 255, 255, 0.1); /* ظل ناعم */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  #scrollToTopBtn:hover {
+    transform: scale(1.2); /* تكبير الزر عند التمرير عليه */
+    opacity: 0.9; /* تقليل الشفافية */
+  }
+  
+  /* Arrow Design */
+  #scrollToTopBtn .arrow {
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent; /* الحواف الجانبية شفافة */
+    border-right: 8px solid transparent; /* الحواف الجانبية شفافة */
+    border-bottom: 12px solid #fff; /* رأس السهم أبيض */
+    filter: drop-shadow(0 2px 4px rgba(255, 255, 255, 0.4)); /* إضافة ظل للسهم */
+  }
+
